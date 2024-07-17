@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const config = require('./config/config');
 const todoRoutes = require('./routes/todoRoutes');
 const authRoutes = require('./routes/authRoutes');
-
+const path = require('path')
 const cors = require('cors');
 const app = express();
   
